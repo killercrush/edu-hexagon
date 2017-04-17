@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>	
+	<head>
+		<title>Визуализация</title>
+		<script type="text/javascript" src="./libs/phaser.js"> </script>
+		<script type="text/javascript" src="script.js"></script>
+		<style>
+			body {
+
+				margin: 0;
+				overflow: hidden;
+				background-color: #124184;
+			}
+			#view-container {
+				margin: 0 auto;
+				width: 600px;
+			}
+			.debug-toggle {
+				position: absolute;
+				right: 0;
+				top: 0;
+				color: #ffffff;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="debug-toggle">
+			<label for="debugToggle">Debug</label>
+			<input type="checkbox" id="debugToggle">
+		</div>		
+		<div id="view-container"></div>
+	</body>
+</html>
